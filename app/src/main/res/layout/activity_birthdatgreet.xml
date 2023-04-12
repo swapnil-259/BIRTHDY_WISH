@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textview"
+    android:orientation="vertical"
+    tools:context=".birthdatgreet">
+
+    <TextView
+        android:id="@+id/text22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wishing you a \n   very happy \n     Birthday"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginRight="40dp"/>
+    <TextView
+        android:id="@+id/text23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+</LinearLayout>

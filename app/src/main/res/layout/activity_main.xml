@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/birthday4"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wishing_n_you_a_n_birthday"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/textview"
+        android:hint="@string/enter_your_name"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp"
+        tools:ignore="TextFields,VisualLintTextFieldSize" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/enter"
+        android:textColor="@color/black"
+        android:background="@drawable/button"/>
+
+</LinearLayout>
